@@ -1,0 +1,174 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output. 
+#
+
+sidebar:
+    # Site Settings
+    title: Wojtek Fica Resume
+    url: 'http://wfica.github.io'
+    about: false # set to False or comment line if you want to remove the "How to use?" in the sidebar
+    
+    # Profile information
+    name: Wojciech Fica
+    #tagline: Full Stack Developer
+    pic: profile_fica.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    
+    # Sidebar links
+    email: wojtekfica@gmail.com
+    phone: +48 668 998 276
+    #website: blog.webjeda.com #do not add http://
+    #linkedin: alandoe
+    github: wfica
+    #twitter: '@webjeda'
+
+    languages:
+        - language:
+          idiom: Polish
+          level: Native
+        - language:
+          idiom: English
+          level: Fluent
+        
+    interests:
+        - interest:
+          item: Climbing
+          link:
+        - interest:
+          item: Competitive Programming <br> (ACM ICPC)
+          link:
+
+      
+career-profile: 
+    title: Career Profile
+    # text: "I am currently a software engineer at Facebook, London. I received a bachelor's degree in Joint Studies in Computer Science and Mathematics after studying at the University of Wrocław, Poland."
+    text: "A software engineer. I received a bachelor's degree in Joint Studies in Computer Science and Mathematics after studying at the University of Wrocław, Poland."
+
+studies: 
+    - education:
+      degree: Bachelor’s Degree in Joint Studies in Computer Science & Mathematics
+      university: University of Wrocław
+      time: 2015 - 2018
+      # details: "Finished studied with GPA 4.86. Final exam grade: 5.0 (scale: lowest 2.0, highest 5.0). Maths courses I liked most: Functional Analysis, Probability Theory. CS courses I liked most: Formal Languages and Computational Complexity, Algorithms and Data Structures."
+      details: "Maths courses I liked most: Functional Analysis, Probability Theory. CS courses I liked most: Formal Languages and Computational Complexity, Algorithms and Data Structures."
+
+    - education:
+      degree: High School Diploma,
+      university: 14th High School in Wrocław
+      time: 2012 - 2015
+      details: "Finished CS/Math/English profiled class. Final exams grades: CS - 100%, Math - 96%, English - 94%. Finalist of <b>Polish Olympiad in Informatics</b>."
+
+experiences:
+    # - experience:
+    #   role: "Software developer @ Facebook"
+    #   time: Jul 2018 - current
+    #   company: Full time position
+    #   #website: kariera.axit.pl 
+    #   details: "Just started."
+
+    - experience:
+      role: "Software developer intern @ AXIT"
+      time: Jul 2017 - Oct 2017
+      company: Summer internship
+      #website: kariera.axit.pl 
+      details: "Most code in Java - backend. Implemented monitoring system which collects statistics of running services. Working on updating messages format so that a software update does not cause version incompatibilities."
+
+    - experience:
+      role: "Teacher @ 1st High School in Jelenia Góra"
+      time: Oct 2016 - May 2017
+      company: Part-time job
+      #website: kariera.axit.pl 
+      details: "Programming in C++ and algorithms lessons."
+
+projects:
+    title: Projects
+    intro: "Languages + some projects I worked on."
+    
+    projects:
+      - project:
+        title: Proof checker
+        link: https://github.com/wfica/proof_checker
+        tagline: "Proof checker implementation in <b>OCaml</b>. It reads a proof line by line and checks if a current statement can be deduced from the previous ones. It supports first order logic and axioms. It can also fill gaps in a proof."
+
+      - project:
+        title: ICLR 2018 Reproducibility Challenge
+        link: https://github.com/wfica/nn-project-muse
+        tagline: The final project for Neural Networks and Deep Learning class. The aim of the report was to reproduce and discuss results presented in <a href="https://arxiv.org/pdf/1710.04087.pdf" target="_blank">Word translation without parallel data</a> by A. Conneau et al.
+
+      - project:
+        title: Compiler of ALGOL 16
+        link: "#"
+        tagline: "A cross compiler written in <b>Prolog</b>. It compiles ALGOL 16, toy-language similar to ALGOL 60, into machine code of a simple processor."
+
+      - project:
+        title: Router
+        link: https://github.com/wfica/computer_networks
+        tagline: "Written in <b>C</b>. Implements distance-vector routing protocol. Creates and updates routing tables. Routers check if direct links are up and send their routing tables to their neighbours periodically."
+
+
+      - project:
+        title: KupSe!
+        link: "#"
+        tagline: "A group project - simple online shop application written in <b>Node.js</b>. Framework - Express, database - MongoDB."
+
+      - project:
+        title: Manager
+        link: "#"
+        tagline: "Project for data bases university course, written in <b>Python</b> & <b>SQL</b>. It manages an artificial company's human resources."
+
+      - project:
+        title: Reversi
+        link: https://github.com/wfica/Reversi
+        tagline: "Implemented in <b>Haskell</b>. Produces random rounds of reversi game."
+
+publications:
+    title: Achievements
+    #intro: "You can list your publications in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus."
+    
+    publications:
+      - paper:
+        #title: "27th place in ACM Central Europe Regional Contest 2016. (63 teams from 7 countries)"
+        #authors: Studies
+        conference: 27th place in <b>ACM Central Europe Regional Contest</b> 2016 (63 teams from 7 countries).
+      - paper:
+        #title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+        #authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        conference: "Talents Scholarship holder 2015/16, 2016/17 and 2017/18."
+
+      - paper:
+        #title: A syntax directed compiler for Algol 60
+        #authors: Edgar T. Irons
+        conference: "Finalist of <b>Polish Olympiad in Informatics 2014/2015</b>."
+      
+      - paper:
+        #title: A syntax directed compiler for Algol 60
+        #authors: Edgar T. Irons
+        conference: "13th place in international mathematical competition Náboj 2015 (219 teams from 7 countries)."
+
+
+
+
+skills:
+    title: Other Skills &amp; Proficiency
+    skills:
+        - skill:
+          name: Python & Django
+          level: 98%
+        - skill:
+          name: Javascript & jQuery
+          level: 98%
+        - skill:
+          name: Angular
+          level: 98%
+        - skill:
+          name: HTML5 & CSS
+          level: 95%
+        - skill:
+          name: Ruby on Rails
+          level: 85%
+        - skill:
+          name: Sketch & Photoshop
+          level: 60%
+
+
+footer: 
+    text: 'Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> for developers'
