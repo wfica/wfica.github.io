@@ -40,7 +40,7 @@ sidebar:
       
 career-profile: 
     title: Career Profile
-    # text: "I am currently a software engineer at Facebook, London. I received a bachelor's degree in Joint Studies in Computer Science and Mathematics after studying at the University of Wrocław, Poland."
+    #text: "I am currently a software engineer at Facebook, London. I received a bachelor's degree in Joint Studies in Computer Science and Mathematics after studying at the University of Wrocław, Poland."
     text: "A software engineer. I received a bachelor's degree in Joint Studies in Computer Science and Mathematics after studying at the University of Wrocław, Poland."
 
 studies: 
@@ -48,8 +48,8 @@ studies:
       degree: Bachelor’s Degree in Joint Studies in Computer Science & Mathematics
       university: University of Wrocław
       time: 2015 - 2018
-      # details: "Finished studied with GPA 4.86. Final exam grade: 5.0 (scale: lowest 2.0, highest 5.0). Maths courses I liked most: Functional Analysis, Probability Theory. CS courses I liked most: Formal Languages and Computational Complexity, Algorithms and Data Structures."
-      details: "Maths courses I liked most: Functional Analysis, Probability Theory. CS courses I liked most: Formal Languages and Computational Complexity, Algorithms and Data Structures."
+      details: "Finished studied with GPA 4.87. Final exam grade: 5.0 (scale: lowest 2.0, highest 5.0). Maths courses I liked most: Functional Analysis, Probability Theory. CS courses I liked most: Formal Languages and Computational Complexity, Functioanl Programming, Algorithms and Data Structures."
+
 
     - education:
       degree: High School Diploma,
